@@ -1,0 +1,1 @@
+Una media técnica en software de grado 11 es una formación que complementa el bachillerato enseñando bases de programación, desarrollo de aplicaciones y lógica computacional. Su objetivo es preparar a los estudiantes para continuar estudios tecnológicos o ingresar al mundo laboral en el área de desarrollo de software.
