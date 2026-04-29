@@ -1,0 +1,86 @@
+5.1 
+for (let i = 1; i <= 20; i++) {
+    console.log(i);
+}
+
+5.2
+for (let i = 2; i <= 50; i+=2) {
+    console.log(i);
+
+5.3
+let saldo = 1000;
+
+while (saldo > 0) {
+  saldo -150;
+  console.log("Saldo:", saldo);
+}
+
+console.log("Saldo insuficiente");
+
+5.4
+let conteo = 5;
+do{
+console.log(conteo);
+conteo--;
+} while (contador >0);
+console.log("Ignition"):
+
+5.5 
+for (let i = 1; i <= 20; i++) 
+{
+  if (i % 3 == 0) 
+    continue;
+  
+  if (i == 17) 
+    break; 
+  
+  console.log(i);
+}
+
+5.6
+let numero = 3;
+for (let i = 1; <= 10; i++){
+    console.log(`${numero} x ${i} = ${numero * i}`);
+}
+
+5.7
+for (let i = 0; i <= 5; i++){
+
+    let fila = "";
+
+    for (letn j = 0; j <= 5; j++){
+        fila += "* ";
+
+    }
+    console.log(fila);
+}
+
+5.8
+for (let i = 0; i <= 5; i++){
+    let fila = "";
+
+    for (let j = 0; j <= i; j++) {
+        fila += "* ";
+    }
+    console.log(fila);
+}
+
+5.9 
+for (let i = 1; i <= 100; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    console.log("FizzBuzz");
+  } else if (i % 3 === 0) {
+    console.log("Fizz");
+  } else if (i % 5 === 0) {
+    console.log("Buzz");
+  } else {
+    console.log(i);
+  }
+}
+
+5.10
+let suma = 0;
+for (let i = 1; i <= 100; i++){
+  suma += i;
+}
+console.log ("la suma total es : + suma");
