@@ -1,0 +1,12 @@
+let num1 = 5;
+let num2 = 12;
+let suma = num1 + num2;
+console.log(suma);
+let resta = num1 - num2;
+console.log(resta);
+let multiplicacion = num1 * num2;
+console.log(multiplicacion);
+let modulo = num2 % num1;
+console.log(modulo);
+let potencia = num1 ** num2;
+console.log(potencia);
