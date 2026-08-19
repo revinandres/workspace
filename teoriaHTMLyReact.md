@@ -42,7 +42,7 @@ Un componente de React se puede ver como una etiqueta HTML personalizada que nos
 
 Por ejemplo, podemos crear un componente llamado Boton y usarlo como:
 
-{   <Boton />  }
+   < Boton / >  
 
 Props
 
