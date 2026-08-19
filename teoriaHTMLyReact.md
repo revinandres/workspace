@@ -1,7 +1,7 @@
 1. HTML
 Etiquetas de estructura
 
- <html>: documento HTML.
+ html: documento HTML.
 <head>: configuración y metadatos.
 <title>: título de la pestaña.
 <body>: contenido visible.
