@@ -3,24 +3,24 @@ Etiquetas de estructura
 
 < html >: documento HTML.
 < head >: configuración y metadatos.
-title: título de la pestaña.
-body: contenido visible.
-header: encabezado.
-nav: navegación.
-main: contenido principal.
-section: sección.
-footer: pie de página.
+< title >: título de la pestaña.
+< body >: contenido visible.
+< header >: encabezado.
+< nav >: navegación.
+< main >: contenido principal.
+< section >: sección.
+< footer >: pie de página.
     
 PARA AGREGAR CODIGO
 < link rel="stylesheet" href="style.css">
 < script src="script.js"></script>
 
 etiquetas de texto
-.h1: título principal.
-.h2: subtítulo.
-.p: párrafo.
-.strong: texto importante/negrita.
-.em: énfasis/cursiva.
+< h1 >: título principal.
+< h2 >: subtítulo.
+< p >: párrafo.
+< strong >: texto importante/negrita.
+< em >: énfasis/cursiva.
 
 
 2. JavaScript
