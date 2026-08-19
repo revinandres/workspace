@@ -1,5 +1,6 @@
 1. HTML
 Etiquetas de estructura
+
 <html>: documento HTML.
 <head>: configuración y metadatos.
 <title>: título de la pestaña.
@@ -9,121 +10,60 @@ Etiquetas de estructura
 <main>: contenido principal.
 <section>: sección.
 <footer>: pie de página.
-Para agregar código
+    
+PARA AGREGAR CODIGO
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
-5 etiquetas de texto
+
+etiquetas de texto
 <h1>: título principal.
 <h2>: subtítulo.
 <p>: párrafo.
 <strong>: texto importante/negrita.
 <em>: énfasis/cursiva.
+
+
 2. JavaScript
-Variables
+Variables: almacenan información.
+Tipos: texto, números, booleanos, arrays y objetos.
+Constantes: valores que no se pueden reasignar.
+Globales: variables accesibles desde diferentes partes del programa.
+Flujo: permite tomar decisiones y repetir acciones mediante condiciones y bucles.
 
-Guardan datos que podemos utilizar.
 
-let nombre = "Ana";
-let edad = 20;
-let: puede cambiar.
-const: no se puede reasignar.
-var: forma antigua de declarar variables.
-Tipos de datos
-String: "Hola"
-Number: 20
-Boolean: true / false
-Array: [1, 2, 3]
-Object: {nombre: "Ana"}
-null y undefined: ausencia de valor.
-Variables globales
-
-Son variables declaradas fuera de funciones y pueden ser accesibles desde diferentes partes del programa. Se recomienda no abusar de ellas.
-
-Estructuras de flujo
-
-Permiten controlar qué código se ejecuta.
-
-if (edad >= 18) {
-    console.log("Mayor");
-} else {
-    console.log("Menor");
-}
-
-También existen:
-
-switch: varias opciones.
-for: repite una cantidad determinada.
-while: repite mientras una condición sea verdadera.
 3. CSS
+Selectores: indican qué elementos HTML se quieren modificar.
+Permiten cambiar características como color, tamaño, posición, fondo y espacio.
 
-Los selectores indican qué elementos HTML queremos modificar.
-
-p {
-    color: blue;
-}
-Principales selectores
-p {}          /* etiqueta */
-.clase {}     /* clase */
-#titulo {}    /* ID */
-* {}          /* todos */
-div p {}      /* p dentro de div */
-
-Después del selector se colocan las propiedades:
-
-.boton {
-    color: white;
-    background-color: blue;
-}
-
-El selector elige el elemento y las propiedades modifican su apariencia.
 
 4. React
-Componentes
 
-Un componente es como una pieza reutilizable de una página.
+Un componente de React se puede ver como una etiqueta HTML personalizada que nosotros creamos.
 
-HTML:
-
-<button>Comprar</button>
-
-React:
-
-function Boton() {
-    return <button>Comprar</button>;
-}
-
-Y se puede reutilizar:
+Por ejemplo, podemos crear un componente llamado Boton y usarlo como:
 
 <Boton />
+
 Props
 
-Son datos que un componente recibe de otro:
+Los props son datos que se le pasan a un componente para personalizarlo o cambiar su contenido.
 
-function Usuario({ nombre }) {
-    return <h2>Hola {nombre}</h2>;
-}
+Por ejemplo, un botón puede recibir un prop como color="rojo" y así mostrar un botón rojo.
 
 
-<Usuario nombre="Ana" />
+¿Cómo y cuándo se usa useEffect en un componente de React?
 
-Props = información que recibe el componente.
+useEffect se usa cuando necesitas realizar una acción después de que el componente se renderiza.
 
-useState
+Por ejemplo: obtener datos de una API, cambiar el título de la página o iniciar un temporizador.
 
-Sirve para guardar datos que pueden cambiar:
+¿Cómo se usa useState para las variables de un componente?
 
-const [contador, setContador] = useState(0);
-contador: valor actual.
-setContador: cambia el valor.
-0: valor inicial.
-setContador(contador + 1);
+useState sirve para crear variables que pueden cambiar dentro de un componente y hacer que React actualice la pantalla cuando cambian.
 
-Cuando cambia el estado, React actualiza la interfaz.
+Por ejemplo, para un contador:
 
-useEffect
+contador = 0 → contador = 1 → contador = 2
 
-Sirve para ejecutar acciones relacionadas con elementos externos al renderizado, como APIs, temporizadores o eventos.
 
-useEffect(() => {
-    console.log("Componente cargado");
-}, []);
+
