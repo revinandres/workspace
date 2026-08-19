@@ -16,11 +16,11 @@ PARA AGREGAR CODIGO
 <script src="script.js"></script>
 
 etiquetas de texto
-.<h1>: título principal.
-.<h2>: subtítulo.
-.<p>: párrafo.
-.<strong>: texto importante/negrita.
-.<em>: énfasis/cursiva.
+.h1: título principal.
+.h2: subtítulo.
+.p: párrafo.
+.strong: texto importante/negrita.
+.em: énfasis/cursiva.
 
 
 2. JavaScript
