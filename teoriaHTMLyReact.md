@@ -2,14 +2,14 @@
 Etiquetas de estructura
 
  html: documento HTML.
-<head>: configuración y metadatos.
-<title>: título de la pestaña.
-<body>: contenido visible.
-<header>: encabezado.
-<nav>: navegación.
-<main>: contenido principal.
-<section>: sección.
-<footer>: pie de página.
+head: configuración y metadatos.
+title: título de la pestaña.
+body: contenido visible.
+header: encabezado.
+nav: navegación.
+main: contenido principal.
+section: sección.
+footer: pie de página.
     
 PARA AGREGAR CODIGO
 <link rel="stylesheet" href="style.css">
